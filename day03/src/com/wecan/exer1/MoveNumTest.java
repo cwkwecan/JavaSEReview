@@ -30,7 +30,6 @@ public class MoveNumTest {
         System.out.print("]\n");
     }
 
-    //此方法完美解决：有n个整数，使其前面各数顺序向后移m个位置，最后m个数变成最前面的m个数（想了半天呢！）
     public static int[] arrMove(int[] arr,int movNum){
         int[] newArr = new int[arr.length];
         int count = 0;
